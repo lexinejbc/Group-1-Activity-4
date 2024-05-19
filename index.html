@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1 | Activity 4</title>
+    <link rel="stylesheet" href="activity4.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="Buttons">
+        <div class="card" style="width: 18rem;">
+            <h2>Hello Everyone!</h2> 
+            <p id="demo">We are a 3rd Year Students </p> <br>
+            <button class="button-85" role="button" type="button" onclick='document.getElementById("demo").innerHTML = "from BSIT - 3H"'>Show</button>
+        </div>
+      
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <img id="myImage" src="group.png" style="width:300px">
+
+                <button class="button-70" role="button" onclick="document.getElementById('myImage').src='boys.png'">Show Boys</button>
+                <button class="button-71" role="button" onclick="document.getElementById('myImage').src='girls.png'">Show Girls</button>
+
+            </div>
+        </div>
+ 
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+    <h2>Members</h2>
+
+    <p id="members">
+        Aliño, Louis Francis <br>
+        Canlapan, Lexine Just B.<br>	                     
+        Virtudazo, Loise Andre S.<br>
+        De Leon, Mhark Justine  <br>		                             
+        Maravilla, Jayson<br>
+        Argielyn Velasquez <br></p>
+    
+        <button class="button-62" role="button" onclick="document.getElementById('members').style.fontSize='30px'">Make it Bigger</button>
+
+
+</div>
+</div>
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <p id="demo3">Thank You!</p>
+        <button class="button-49" role="button" onclick="myFunction()">Submitted By:</button>
+        <script>
+        function myFunction() {
+        document.getElementById("demo3").innerHTML = "GROUP 1";
+        }
+        </script>
+
+
+
+
+    </section>
+</body>
+
+</html>
